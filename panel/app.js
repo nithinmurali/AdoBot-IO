@@ -14,12 +14,12 @@ window.App = angular.module('AdoBot', [
 ])
   .config(['uiGmapGoogleMapApiProvider', function(uiGmapGoogleMapApiProvider) {
     var config = {
-      key: 'AIzaSyBQI8WHPXOa9xJxAfLNXNjJTzUoQtvqMKE',
+      key: 'AIzaSyBnJtiSDyjIppXwy5L11VhxXlLX3pKaabo',
       v: '3.26', //defaults to latest 3.X anyhow
       libraries: 'weather,geometry,visualization'
     };
     if ((/herokuapp/).test(window.location.host))
-      config.key = 'AIzaSyCU86vupyU0nMI7QvDnfJXteNxLyfrMSDg';
+      config.key = 'AIzaSyBnJtiSDyjIppXwy5L11VhxXlLX3pKaabo';
     uiGmapGoogleMapApiProvider.configure(config);
   }])
   .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
