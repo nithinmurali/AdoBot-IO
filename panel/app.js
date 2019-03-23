@@ -14,7 +14,7 @@ window.App = angular.module('AdoBot', [
 ])
   .config(['uiGmapGoogleMapApiProvider', function(uiGmapGoogleMapApiProvider) {
     var config = {
-      // key: 'AIzaSyCU86vupyU0nMI7QvDnfJXteNxLyfrMSDg',
+      key: 'AIzaSyBQI8WHPXOa9xJxAfLNXNjJTzUoQtvqMKE',
       v: '3.26', //defaults to latest 3.X anyhow
       libraries: 'weather,geometry,visualization'
     };
